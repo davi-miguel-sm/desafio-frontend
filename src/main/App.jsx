@@ -1,9 +1,12 @@
+import Content from '../components/template/Content';
+import Footer from '../components/template/Footer';
+import Header from '../components/template/Header';
+import Logo from '../components/template/Logo';
+
 function App() {
 	return (
 		<div>
-			<div className='bg-blue-500 w-full'>
-				<h1>Testando o Código</h1>
-			</div>
+			<Logo></Logo>
 		</div>
 	);
 }
