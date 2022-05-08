@@ -1,0 +1,20 @@
+.rodape {
+	min-width: 250px;
+}
+.rodape__container {
+	align-self: center;
+}
+
+.rodape__container a {
+	min-width: 220px;
+	background: #71478e;
+}
+
+.rodape__texto p {
+	font-family: 'QuickSand', sans-serif;
+	color: #5c5c5c;
+}
+
+.rodape__logo {
+	width: 220px;
+}
