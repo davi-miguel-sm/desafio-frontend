@@ -9,8 +9,8 @@
 	body {
 		padding: 0;
 		margin: 0;
-		font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-			Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+		font-family: 'Roboto', Segoe UI, sans-serif;
+		background-color: #e5e5e5;
 	}
 
 	a {
@@ -55,8 +55,6 @@
 			'menuLat cabecalho'
 			'menuLat conteudo'
 			'menuLat rodape';
-		height: 100vh;
-		background-color: #e5e5e5;
 	}
 
 	/* SideMenu Css */
@@ -65,7 +63,6 @@
 	}
 
 	.menulateral__titulo {
-		font-family: 'Roboto';
 		font-weight: 700;
 	}
 
