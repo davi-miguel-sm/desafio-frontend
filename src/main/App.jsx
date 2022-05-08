@@ -1,14 +1,17 @@
 import Content from '../components/template/Content';
 import Footer from '../components/template/Footer';
 import Header from '../components/template/Header';
-import Logo from '../components/template/Logo';
+import SideMenu from '../components/template/SideMenu';
 
-function App() {
+import '../styles/global.css';
+
+export default function App() {
 	return (
-		<div>
-			<Logo></Logo>
+		<div className='app '>
+			<Header />
+			<SideMenu />
+			<Content />
+			<Footer />
 		</div>
 	);
 }
-
-export default App;

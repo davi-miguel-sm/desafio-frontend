@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Logo() {
 	return (
-		<aside className='logo'>
+		<aside className='logo '>
 			<img src={logo} alt='logo' />
 		</aside>
 	);
