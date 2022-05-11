@@ -1,0 +1,36 @@
+.menulateral {
+	box-shadow: var(--shadow);
+}
+
+.menulateral__slogan {
+	background: linear-gradient(to top, #ffb354, #ee7a3a);
+	color: aliceblue;
+	padding: 10px 20px;
+}
+
+.menulateral__slogan > h1 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.li__item {
+	font-family: 'QuickSand';
+	padding: 5px 2px;
+	border-bottom: 2px solid #eee;
+	font-weight: 500;
+	font-size: 15px;
+}
+
+.li__item:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.li__ativo {
+	background-color: #ffd7c2;
+	border-left: solid 5px rgb(247, 119, 96);
+}
+
+.li__icon {
+	margin: 0px 5px;
+}
