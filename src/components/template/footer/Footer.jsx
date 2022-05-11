@@ -4,12 +4,12 @@ import './Footer.css';
 
 export default function Footer(props) {
 	return (
-		<footer className='rodape '>
+		<footer className='rodape'>
 			<div className='rodape__containerLogo '>
 				<img className='rodape__logo' src={logoGaloa} alt='Galoá' />
-				<div>
-					<a href='/'>Saiba Mais</a>
-				</div>
+				<a className='rodape__button' href='/'>
+					Saiba Mais
+				</a>
 			</div>
 			<div className='rodape__containerTexto'>
 				<p>

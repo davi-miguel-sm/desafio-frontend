@@ -1,6 +1,7 @@
 import React from 'react';
 import Login from './Login';
-import Globo from '../../../assets/img/globo.svg';
+import { FaGlobe } from 'react-icons/fa';
+import { IoMdArrowDropdown } from 'react-icons/io';
 import './Header.css';
 
 export default function Header() {
@@ -11,15 +12,13 @@ export default function Header() {
 				<p>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </p>
 				<p>ISSN: 1234-5678</p>
 			</div>
-			<div className='cabecalho__containerSelect'>
-				<div className=''>
-					<img className='' src={Globo} alt='Globo' />
-					<select name='select' id='selectLanguages'>
-						<option value='pt-br'>PT-BR</option>
-						<option value='en'>EN</option>
-					</select>
-				</div>
-				<Login email='alguem12@galoascience.com' className='' />
+			<div className='cabecalho__dropdown'>
+				<button className='dropdown__dropbtn'>
+					<FaGlobe />
+					<span>PT-BR</span>
+					<IoMdArrowDropdown />
+				</button>
+				<Login email='alguem12@galoascience.com' />
 			</div>
 		</header>
 	);

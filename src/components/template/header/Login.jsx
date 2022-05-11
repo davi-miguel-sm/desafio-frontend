@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
+import './Login.css';
 
 export default function Login(props) {
 	return (
@@ -10,6 +11,7 @@ export default function Login(props) {
 			</div>
 			<div className='login__icone'>
 				<FaUserCircle />
+				<span className='notificacao'>2</span>
 			</div>
 		</div>
 	);

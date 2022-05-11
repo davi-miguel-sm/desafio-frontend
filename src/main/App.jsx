@@ -9,15 +9,15 @@ import './App.css';
 export default function App() {
 	return (
 		<div className='app'>
-			{/* <SideMenu /> */}
+			<SideMenu />
 			<NavBar />
-			{/* <div className='app__container'>
+			<div className='app__container'>
 				<Header />
 				<div className='app__container__content'>
-					<Content />
+					{/* <Content /> */}
 					<Footer />
 				</div>
-			</div> */}
+			</div>
 		</div>
 	);
 }
