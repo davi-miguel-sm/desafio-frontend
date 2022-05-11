@@ -1,14 +1,25 @@
 import React from 'react';
+import Login from './Login';
+import Globo from '../../../assets/img/globo.svg';
+import './Header.css';
 
-export default function Header(props) {
+export default function Header() {
 	return (
 		<header className='cabecalho'>
-			<div
-				className='cabecalho__titulo font-bold px-1 py-1 sm:px-2 sm:py-2 lg:py-3 flex 
-				justify-center bg-gradient-to-t from-orange-500 to-orange-300'>
-				<h1 className='tracking-tighter lg:tracking-normal text-white text-4xl uppercase m-1'>
-					slaca 2019
-				</h1>
+			<div className='cabecalho__titulo '>
+				<p>Anais do Simpósio Latino Americano de Ciências de Alimentos </p>
+				<p>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </p>
+				<p>ISSN: 1234-5678</p>
+			</div>
+			<div className='cabecalho__containerSelect'>
+				<div className=''>
+					<img className='' src={Globo} alt='Globo' />
+					<select name='select' id='selectLanguages'>
+						<option value='pt-br'>PT-BR</option>
+						<option value='en'>EN</option>
+					</select>
+				</div>
+				<Login email='alguem12@galoascience.com' className='' />
 			</div>
 		</header>
 	);

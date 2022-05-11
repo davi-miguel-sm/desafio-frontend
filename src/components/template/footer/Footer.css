@@ -1,13 +1,14 @@
 .rodape {
-	min-width: 250px;
+	background-color: rgb(199, 225, 250); /* Remover */
 }
-.rodape__container {
+.rodape__containerLogo {
 	align-self: center;
 }
 
-.rodape__container a {
-	min-width: 220px;
+.rodape__containerLogo a {
+	padding: 5px;
 	background: #71478e;
+	font-family: 'QuickSand', sans-serif;
 }
 
 .rodape__texto p {
@@ -16,5 +17,5 @@
 }
 
 .rodape__logo {
-	width: 220px;
+	width: 200px;
 }
