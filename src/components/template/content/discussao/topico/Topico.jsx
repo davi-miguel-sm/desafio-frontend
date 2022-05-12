@@ -8,15 +8,11 @@ export default function Topicos(props) {
 	return (
 		<div className='topico'>
 			<div className='topico__top'>
-				<p id='topico__assunto'>Assunto da pergunta aparece aqui</p>
-				<p id='topico__nomeAutor'>J.R.R.Tolkien</p>
+				<p id='topico__assunto'>{props.assunto}</p>
+				<p id='topico__nomeAutor'>{props.autor}</p>
 			</div>
 			<div className='topico__bottom'>
-				<p id='topico__conteudo'>
-					Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da
-					análise da dimensão e impacto de processo formativo situado impacto de processo
-					formativo processo...
-				</p>
+				<p id='topico__conteudo'>{props.conteudo}</p>
 				<div className='topico__abaixoConteudo'>
 					<button className='topico_btns'>
 						<RiMore2Fill />
@@ -24,6 +20,12 @@ export default function Topicos(props) {
 					<button className='topico_btns'>
 						<RiHeartFill />
 					</button>
+					<span>{props.like > 1 ? `${props.like} likes` : `${props.like} like`}</span>
+					<span>
+						{props.resposta > 1
+							? `${props.resposta} respostas`
+							: `${props.resposta} resposta`}
+					</span>
 				</div>
 			</div>
 		</div>
