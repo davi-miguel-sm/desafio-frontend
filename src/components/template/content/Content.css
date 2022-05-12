@@ -1,0 +1,30 @@
+.conteudo__video {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.conteudo__resumo {
+	border: 1px solid var(--grey-border);
+	border-radius: 3px;
+	margin: 20px auto;
+}
+
+.conteudo__resumoTitulo {
+	background: var(--cards-color);
+	border: 1px solid var(--white-border);
+	border-radius: 3px 3px 0px 0px;
+	padding: 7px 10px;
+}
+
+.conteudo__discussao {
+	border: 1px solid var(--grey-border);
+	border-radius: 3px;
+	margin: 20px auto;
+}
+.conteudo__discussao {
+	background: var(--cards-color);
+	border: 1px solid var(--white-border);
+	border-radius: 3px 3px 0px 0px;
+	padding: 7px 10px;
+}

@@ -5,8 +5,8 @@ import { RiArticleLine, RiContactsFill } from 'react-icons/ri';
 import { MdWork } from 'react-icons/md';
 
 export default function Li(props) {
-	function defineIcon(liMenu) {
-		switch (liMenu) {
+	function defineIcon(valorProps) {
+		switch (valorProps) {
 			case 'Apresentação':
 				return <BiSlideshow className='li__icon' />;
 				break;
@@ -28,16 +28,18 @@ export default function Li(props) {
 		}
 	}
 
-	function adicionaAtivo() {
-		if (props.text === 'Trabalhos') {
+	function adicionaAtivo(valorProps) {
+		if (valorProps === 'Trabalhos') {
 			return 'li__ativo';
 		}
 	}
 
 	return (
-		<li className={`li__item ${adicionaAtivo()}`}>
-			{defineIcon(props.text)}
-			{props.text}
+		<li className={`li__item ${adicionaAtivo(props.text)}`}>
+			<a href='/'>
+				{defineIcon(props.text)}
+				{props.text}
+			</a>
 		</li>
 	);
 }

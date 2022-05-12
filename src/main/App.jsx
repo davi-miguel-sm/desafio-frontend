@@ -14,7 +14,7 @@ export default function App() {
 			<div className='app__container'>
 				<Header />
 				<div className='app__container__content'>
-					{/* <Content /> */}
+					<Content />
 					<Footer />
 				</div>
 			</div>

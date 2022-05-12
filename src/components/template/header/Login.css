@@ -1,3 +1,4 @@
+/* Login */
 .login {
 	display: flex;
 	align-items: center;
@@ -19,9 +20,15 @@
 	border-radius: 90%;
 	color: antiquewhite;
 	font-weight: 800;
-	right: 20px;
-	top: 5px;
-	position: fixed;
+	right: 17px;
+	top: 10px;
+	position: absolute;
+}
+
+@media (max-width: 800px) {
+	.login__conta p {
+		font-size: 15px;
+	}
 }
 
 @media (max-width: 345px) {

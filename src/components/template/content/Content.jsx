@@ -15,6 +15,7 @@ export default function Content() {
 				</div>
 			</div>
 			<div className='conteudo__resumo'>
+				<div className='conteudo__resumoTitulo'>Resumo</div>
 				<p>
 					Etiam sollicitudin mauris nec dolor tempor commodo. Proin fermentum et enim quis
 					pharetra. Ut tempus, massa elementum semper sollicitudin, ipsum tellus elementum
@@ -30,7 +31,9 @@ export default function Content() {
 					sem. Donec maximus ornare auctor.
 				</p>
 			</div>
-			<div className='conteudo__discussao'>Discussão</div>
+			<div className='conteudo__discussao'>
+				<div className='conteudo__discussaoTitulo'>Discussões</div>
+			</div>
 		</main>
 	);
 }
