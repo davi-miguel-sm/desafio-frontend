@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,500&family=Quicksand:wght@400;500;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 :root {
 	--cards-color: #fdf1eb;
@@ -8,6 +8,18 @@
 	--font-color: #725c5c;
 	--top-gradient: linear-gradient(to top, #ffb354, #ee7a3a);
 	--shadow: 0px 0px 10px #00000040;
+}
+
+::-webkit-scrollbar-track {
+	background-color: #f4f4f4;
+}
+::-webkit-scrollbar {
+	width: 7px;
+	background: #f4f4f4;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background: #ee7a3a;
 }
 
 * {
@@ -64,13 +76,13 @@ a {
 	}
 
 	.login__conta p {
-		color: var(--login-color);
+		color: var(--white-color);
 		font-weight: 500;
 		font-family: 'QuickSand';
 	}
 
 	.login__icone {
-		color: var(--login-color);
+		color: var(--white-color);
 		font-size: 40px;
 	}
 }

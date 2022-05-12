@@ -3,9 +3,10 @@
 }
 
 .menulateral__slogan {
+	position: relative;
 	display: flex;
 	background: var(--top-gradient);
-	color: aliceblue;
+	color: var(--white-color);
 	padding: 10px 20px;
 	height: 70px;
 	align-items: center;
@@ -28,14 +29,16 @@
 .li__item:hover {
 	text-decoration: underline;
 	cursor: pointer;
+	background-color: #ffd7c2;
 }
 
 .li__ativo {
 	background: #ffd7c2;
-	border-left: solid 5px rgb(247, 119, 96);
+	border-left: solid 5px #f77760;
 }
 
 .li__icon {
+	
 	color: #000000dc;
 	margin: 0px 5px;
 	font-size: 20px;

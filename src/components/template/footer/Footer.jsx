@@ -13,8 +13,11 @@ export default function Footer(props) {
 			</div>
 			<div className='rodape__containerTexto'>
 				<p>
-					Preservar a memória da conferência e aumentar o alcance do conhecimento
-					científico é a razão pela qual o Processo de Galoá foi criado.
+					<strong>
+						Preservar a memória da conferência e aumentar o alcance do conhecimento
+						científico
+					</strong>{' '}
+					é a razão pela qual o Processo de Galoá foi criado.
 				</p>
 				<p>
 					Os trabalhos da conferência publicados aqui são de acesso aberto e nossa

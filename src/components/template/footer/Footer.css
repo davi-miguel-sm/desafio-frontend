@@ -48,7 +48,7 @@
 	text-align: justify;
 }
 
-@media (max-width: 481px) {
+@media (max-width: 510px) {
 	.rodape {
 		flex-direction: column;
 	}
