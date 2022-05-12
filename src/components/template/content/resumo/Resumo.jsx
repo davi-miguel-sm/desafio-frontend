@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import { TextoCompleto, TextoComprimido } from './Texto';
 
 export default function Resumo() {
-	const [showMore, setShowMore] = useState(true);
+	const [showMore, setShowMore] = useState(false);
 	return (
 		<div className='conteudo__box'>
 			<div className='conteudo__boxTitulo'>Resumo</div>
 			<p className='conteudo__boxTexto'>
-				{showMore ? <TextoComprimido /> : <TextoCompleto />}
+				{showMore ? <TextoCompleto /> : <TextoComprimido />}
 				<button onClick={() => setShowMore(!showMore)} id='btnVer'>
-					{showMore ? 'ver mais' : 'ver menos'}
+					{showMore ? 'ver menos' : 'ver mais'}
 				</button>
 			</p>
 		</div>

@@ -36,7 +36,11 @@ export default function Li(props) {
 
 	return (
 		<li className={`li__item ${adicionaAtivo(props.text)}`}>
-			<a href='/'>
+			<a
+				href={
+					props.text === 'Trabalhos' ? '/' : 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+				}
+				target={props.text === 'Trabalhos' ? '_self' : '_blank'}>
 				{defineIcon(props.text)}
 				{props.text}
 			</a>
