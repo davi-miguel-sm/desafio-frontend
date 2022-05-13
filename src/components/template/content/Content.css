@@ -6,6 +6,7 @@
 
 .conteudo__boxTitulo {
 	background: var(--cards-color);
+	color: #4e4e4e;
 	border: 1px solid var(--white-border);
 	font-weight: 500;
 	border-radius: 3px 3px 0px 0px;
