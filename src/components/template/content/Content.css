@@ -1,0 +1,45 @@
+.conteudo__box {
+	border: 1px solid var(--grey-border);
+	border-radius: 3px;
+	margin: 20px auto;
+}
+
+.conteudo__boxTitulo {
+	background: var(--cards-color);
+	color: #4e4e4e;
+	border: 1px solid var(--white-border);
+	font-weight: 500;
+	border-radius: 3px 3px 0px 0px;
+	padding: 7px 10px;
+}
+
+.conteudo__boxTexto {
+	padding: 10px;
+	color: #5c5c5c;
+	font-family: 'QuickSand';
+	font-weight: 500;
+	margin: 10px;
+	text-align: justify;
+}
+
+.box__discussao {
+	display: flex;
+	flex-direction: column;
+}
+
+#btnVer {
+	background: transparent;
+	color: #ee7a3a;
+	border: none;
+	font-size: 20px;
+	font-family: 'Josefin Sans';
+	cursor: pointer;
+}
+
+#btnVer:hover {
+	text-decoration: underline;
+}
+
+#btnVer:active {
+	color: #eeb191e0;
+}
