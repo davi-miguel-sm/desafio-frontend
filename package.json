@@ -2,10 +2,12 @@
 	"name": "desafio-frontend",
 	"private": true,
 	"version": "0.0.0",
+	"homepage": "https://yourgithubname.github.io/your-app-name",
 	"scripts": {
 		"dev": "vite",
-		"predeploy": "vite build",
+		"build": "vite build",
 		"preview": "vite preview",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist"
 	},
 	"dependencies": {
